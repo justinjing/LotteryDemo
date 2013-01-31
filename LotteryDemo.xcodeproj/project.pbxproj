@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FE6DA7E16BAB3A9001B60BE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6DA7B16BAB3A9001B60BE /* Default@2x.png */; };
+		1FE6DA7F16BAB3A9001B60BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6DA7C16BAB3A9001B60BE /* Default-568h@2x.png */; };
+		1FE6DA8016BAB3A9001B60BE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6DA7D16BAB3A9001B60BE /* Default.png */; };
+		1FE6DA8316BAB6AA001B60BE /* button_nomail@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6DA8116BAB6AA001B60BE /* button_nomail@2X.png */; };
+		1FE6DA8416BAB6AA001B60BE /* button_nomail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6DA8216BAB6AA001B60BE /* button_nomail.png */; };
+		1FE6DA8716BAB7D4001B60BE /* button_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6DA8516BAB7D4001B60BE /* button_highlight.png */; };
+		1FE6DA8816BAB7D4001B60BE /* button_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6DA8616BAB7D4001B60BE /* button_highlight@2x.png */; };
+		FEC98EA416BA41A700A4471A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC98EA316BA41A700A4471A /* UIKit.framework */; };
+		FEC98EA616BA41A700A4471A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC98EA516BA41A700A4471A /* Foundation.framework */; };
+		FEC98EA816BA41A700A4471A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC98EA716BA41A700A4471A /* CoreGraphics.framework */; };
+		FEC98EAE16BA41A700A4471A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEC98EAC16BA41A700A4471A /* InfoPlist.strings */; };
+		FEC98EB016BA41A700A4471A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC98EAF16BA41A700A4471A /* main.m */; };
+		FEC98EB416BA41A700A4471A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC98EB316BA41A700A4471A /* AppDelegate.m */; };
+		FEC98EBD16BA41A700A4471A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC98EBC16BA41A700A4471A /* ViewController.m */; };
+		FEC98EC016BA41A700A4471A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC98EBE16BA41A700A4471A /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FE6DA7B16BAB3A9001B60BE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1FE6DA7C16BAB3A9001B60BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1FE6DA7D16BAB3A9001B60BE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1FE6DA8116BAB6AA001B60BE /* button_nomail@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_nomail@2X.png"; sourceTree = "<group>"; };
+		1FE6DA8216BAB6AA001B60BE /* button_nomail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_nomail.png; sourceTree = "<group>"; };
+		1FE6DA8516BAB7D4001B60BE /* button_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_highlight.png; sourceTree = "<group>"; };
+		1FE6DA8616BAB7D4001B60BE /* button_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_highlight@2x.png"; sourceTree = "<group>"; };
+		FEC98E9F16BA41A700A4471A /* LotteryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC98EA316BA41A700A4471A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEC98EA516BA41A700A4471A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEC98EA716BA41A700A4471A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEC98EAB16BA41A700A4471A /* LotteryDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LotteryDemo-Info.plist"; sourceTree = "<group>"; };
+		FEC98EAD16BA41A700A4471A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEC98EAF16BA41A700A4471A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEC98EB116BA41A700A4471A /* LotteryDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LotteryDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FEC98EB216BA41A700A4471A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEC98EB316BA41A700A4471A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEC98EBB16BA41A700A4471A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEC98EBC16BA41A700A4471A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEC98EBF16BA41A700A4471A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC98E9C16BA41A700A4471A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC98EA416BA41A700A4471A /* UIKit.framework in Frameworks */,
+				FEC98EA616BA41A700A4471A /* Foundation.framework in Frameworks */,
+				FEC98EA816BA41A700A4471A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC98E9416BA41A700A4471A = {
+			isa = PBXGroup;
+			children = (
+				FEC98EA916BA41A700A4471A /* LotteryDemo */,
+				FEC98EA216BA41A700A4471A /* Frameworks */,
+				FEC98EA016BA41A700A4471A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC98EA016BA41A700A4471A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC98E9F16BA41A700A4471A /* LotteryDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC98EA216BA41A700A4471A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEC98EA316BA41A700A4471A /* UIKit.framework */,
+				FEC98EA516BA41A700A4471A /* Foundation.framework */,
+				FEC98EA716BA41A700A4471A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEC98EA916BA41A700A4471A /* LotteryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEC98EB216BA41A700A4471A /* AppDelegate.h */,
+				FEC98EB316BA41A700A4471A /* AppDelegate.m */,
+				FEC98EBB16BA41A700A4471A /* ViewController.h */,
+				FEC98EBC16BA41A700A4471A /* ViewController.m */,
+				FEC98EBE16BA41A700A4471A /* ViewController.xib */,
+				FEC98EAA16BA41A700A4471A /* Supporting Files */,
+			);
+			path = LotteryDemo;
+			sourceTree = "<group>";
+		};
+		FEC98EAA16BA41A700A4471A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FE6DA8516BAB7D4001B60BE /* button_highlight.png */,
+				1FE6DA8616BAB7D4001B60BE /* button_highlight@2x.png */,
+				1FE6DA8116BAB6AA001B60BE /* button_nomail@2X.png */,
+				1FE6DA8216BAB6AA001B60BE /* button_nomail.png */,
+				1FE6DA7B16BAB3A9001B60BE /* Default@2x.png */,
+				1FE6DA7C16BAB3A9001B60BE /* Default-568h@2x.png */,
+				1FE6DA7D16BAB3A9001B60BE /* Default.png */,
+				FEC98EAB16BA41A700A4471A /* LotteryDemo-Info.plist */,
+				FEC98EAC16BA41A700A4471A /* InfoPlist.strings */,
+				FEC98EAF16BA41A700A4471A /* main.m */,
+				FEC98EB116BA41A700A4471A /* LotteryDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC98E9E16BA41A700A4471A /* LotteryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC98EC316BA41A700A4471A /* Build configuration list for PBXNativeTarget "LotteryDemo" */;
+			buildPhases = (
+				FEC98E9B16BA41A700A4471A /* Sources */,
+				FEC98E9C16BA41A700A4471A /* Frameworks */,
+				FEC98E9D16BA41A700A4471A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LotteryDemo;
+			productName = LotteryDemo;
+			productReference = FEC98E9F16BA41A700A4471A /* LotteryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC98E9616BA41A700A4471A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "da zhan";
+			};
+			buildConfigurationList = FEC98E9916BA41A700A4471A /* Build configuration list for PBXProject "LotteryDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEC98E9416BA41A700A4471A;
+			productRefGroup = FEC98EA016BA41A700A4471A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC98E9E16BA41A700A4471A /* LotteryDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC98E9D16BA41A700A4471A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC98EAE16BA41A700A4471A /* InfoPlist.strings in Resources */,
+				FEC98EC016BA41A700A4471A /* ViewController.xib in Resources */,
+				1FE6DA7E16BAB3A9001B60BE /* Default@2x.png in Resources */,
+				1FE6DA7F16BAB3A9001B60BE /* Default-568h@2x.png in Resources */,
+				1FE6DA8016BAB3A9001B60BE /* Default.png in Resources */,
+				1FE6DA8316BAB6AA001B60BE /* button_nomail@2X.png in Resources */,
+				1FE6DA8416BAB6AA001B60BE /* button_nomail.png in Resources */,
+				1FE6DA8716BAB7D4001B60BE /* button_highlight.png in Resources */,
+				1FE6DA8816BAB7D4001B60BE /* button_highlight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC98E9B16BA41A700A4471A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC98EB016BA41A700A4471A /* main.m in Sources */,
+				FEC98EB416BA41A700A4471A /* AppDelegate.m in Sources */,
+				FEC98EBD16BA41A700A4471A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEC98EAC16BA41A700A4471A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC98EAD16BA41A700A4471A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEC98EBE16BA41A700A4471A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC98EBF16BA41A700A4471A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEC98EC116BA41A700A4471A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEC98EC216BA41A700A4471A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC98EC416BA41A700A4471A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LotteryDemo/LotteryDemo-Prefix.pch";
+				INFOPLIST_FILE = "LotteryDemo/LotteryDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEC98EC516BA41A700A4471A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LotteryDemo/LotteryDemo-Prefix.pch";
+				INFOPLIST_FILE = "LotteryDemo/LotteryDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC98E9916BA41A700A4471A /* Build configuration list for PBXProject "LotteryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC98EC116BA41A700A4471A /* Debug */,
+				FEC98EC216BA41A700A4471A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC98EC316BA41A700A4471A /* Build configuration list for PBXNativeTarget "LotteryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC98EC416BA41A700A4471A /* Debug */,
+				FEC98EC516BA41A700A4471A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEC98E9616BA41A700A4471A /* Project object */;
+}
