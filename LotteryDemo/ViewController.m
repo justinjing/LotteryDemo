@@ -7,10 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "ScrachViewController.h"
+
 
 @interface ViewController (){
     UILabel* LotteryLabel;
     NSMutableArray *luckNumber;
+    ScrachViewController *scratchViewController;
+    UIView* scratchView;
 }
 
 @end
@@ -23,7 +27,7 @@
     self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"Default.png"]];
 	// Do any additional setup after loading the view, typically from a nib.
     UIButton *generatorButton=[UIButton buttonWithType:UIButtonTypeRoundedRect];
-    generatorButton.frame=CGRectMake(100, 380,104, 31);
+    generatorButton.frame=CGRectMake(110, 380,104, 31);
     [generatorButton  setImage:[UIImage imageNamed:@"button_nomail.png"] forState:UIControlStateHighlighted];
     [generatorButton  setImage:[UIImage imageNamed:@"button_highlight.png"] forState:UIControlStateNormal];
     [generatorButton addTarget:self action:@selector(generatorNumber) forControlEvents:UIControlEventTouchUpInside];
@@ -48,6 +52,12 @@
     [LotteryLabel release];
     
     luckNumber=[[NSMutableArray alloc]init];
+    
+    scratchViewController =[[ScrachViewController alloc] initWithNibName:@"ScratchViewClear" bundle:nil];
+    scratchView = scratchViewController.view;
+    [scratchViewController setImageNamed:@"mohu.png"];
+    [scratchView setFrame:CGRectMake(110,-10,200,200)];
+    [self.view addSubview:scratchView];
 }
 
 - (void)didReceiveMemoryWarning
@@ -59,17 +69,21 @@
 
 -(void)dealloc{
     [luckNumber release];
+    [scratchViewController release];
     [super dealloc];
 }
 
 
 -(void)generatorNumber{
-   
+    
+    [scratchViewController setImageNamed:@"mohu.png"];
+    
     int a= arc4random()%10000;
     if ([luckNumber count]==0){
         
         [luckNumber addObject:[NSString stringWithFormat:@"%d",a]];
         LotteryLabel.text=[NSString stringWithFormat:@"%d",(a+1)];
+        return ;
     }
     else {
             for (int i=0; i<[luckNumber count]; i++) {

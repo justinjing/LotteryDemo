@@ -14,6 +14,8 @@
 		1FE6DA8416BAB6AA001B60BE /* button_nomail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6DA8216BAB6AA001B60BE /* button_nomail.png */; };
 		1FE6DA8716BAB7D4001B60BE /* button_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6DA8516BAB7D4001B60BE /* button_highlight.png */; };
 		1FE6DA8816BAB7D4001B60BE /* button_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6DA8616BAB7D4001B60BE /* button_highlight@2x.png */; };
+		FE4D9E1A16BB8DCB00E33865 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4D9E1816BB8DCB00E33865 /* Icon.png */; };
+		FE4D9E1B16BB8DCB00E33865 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4D9E1916BB8DCB00E33865 /* Icon@2x.png */; };
 		FEC98EA416BA41A700A4471A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC98EA316BA41A700A4471A /* UIKit.framework */; };
 		FEC98EA616BA41A700A4471A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC98EA516BA41A700A4471A /* Foundation.framework */; };
 		FEC98EA816BA41A700A4471A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC98EA716BA41A700A4471A /* CoreGraphics.framework */; };
@@ -22,6 +24,10 @@
 		FEC98EB416BA41A700A4471A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC98EB316BA41A700A4471A /* AppDelegate.m */; };
 		FEC98EBD16BA41A700A4471A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC98EBC16BA41A700A4471A /* ViewController.m */; };
 		FEC98EC016BA41A700A4471A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC98EBE16BA41A700A4471A /* ViewController.xib */; };
+		FEC98EFB16BB78F900A4471A /* TouchRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC98EF716BB78F900A4471A /* TouchRecord.m */; };
+		FEC98EFC16BB78F900A4471A /* ScrachViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC98EF916BB78F900A4471A /* ScrachViewController.m */; };
+		FEC98EFD16BB78F900A4471A /* ScratchViewClear.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC98EFA16BB78F900A4471A /* ScratchViewClear.xib */; };
+		FEC98F0016BB79BA00A4471A /* mohu.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC98EFF16BB79BA00A4471A /* mohu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,8 @@
 		1FE6DA8216BAB6AA001B60BE /* button_nomail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_nomail.png; sourceTree = "<group>"; };
 		1FE6DA8516BAB7D4001B60BE /* button_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_highlight.png; sourceTree = "<group>"; };
 		1FE6DA8616BAB7D4001B60BE /* button_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_highlight@2x.png"; sourceTree = "<group>"; };
+		FE4D9E1816BB8DCB00E33865 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FE4D9E1916BB8DCB00E33865 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		FEC98E9F16BA41A700A4471A /* LotteryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC98EA316BA41A700A4471A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FEC98EA516BA41A700A4471A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,6 +53,12 @@
 		FEC98EBB16BA41A700A4471A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FEC98EBC16BA41A700A4471A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FEC98EBF16BA41A700A4471A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FEC98EF616BB78F800A4471A /* TouchRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchRecord.h; sourceTree = "<group>"; };
+		FEC98EF716BB78F900A4471A /* TouchRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchRecord.m; sourceTree = "<group>"; };
+		FEC98EF816BB78F900A4471A /* ScrachViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrachViewController.h; sourceTree = "<group>"; };
+		FEC98EF916BB78F900A4471A /* ScrachViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrachViewController.m; sourceTree = "<group>"; };
+		FEC98EFA16BB78F900A4471A /* ScratchViewClear.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScratchViewClear.xib; sourceTree = "<group>"; };
+		FEC98EFF16BB79BA00A4471A /* mohu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mohu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,11 @@
 				FEC98EBB16BA41A700A4471A /* ViewController.h */,
 				FEC98EBC16BA41A700A4471A /* ViewController.m */,
 				FEC98EBE16BA41A700A4471A /* ViewController.xib */,
+				FEC98EF616BB78F800A4471A /* TouchRecord.h */,
+				FEC98EF716BB78F900A4471A /* TouchRecord.m */,
+				FEC98EF816BB78F900A4471A /* ScrachViewController.h */,
+				FEC98EF916BB78F900A4471A /* ScrachViewController.m */,
+				FEC98EFA16BB78F900A4471A /* ScratchViewClear.xib */,
 				FEC98EAA16BA41A700A4471A /* Supporting Files */,
 			);
 			path = LotteryDemo;
@@ -104,6 +123,9 @@
 		FEC98EAA16BA41A700A4471A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE4D9E1816BB8DCB00E33865 /* Icon.png */,
+				FE4D9E1916BB8DCB00E33865 /* Icon@2x.png */,
+				FEC98EFF16BB79BA00A4471A /* mohu.png */,
 				1FE6DA8516BAB7D4001B60BE /* button_highlight.png */,
 				1FE6DA8616BAB7D4001B60BE /* button_highlight@2x.png */,
 				1FE6DA8116BAB6AA001B60BE /* button_nomail@2X.png */,
@@ -179,6 +201,10 @@
 				1FE6DA8416BAB6AA001B60BE /* button_nomail.png in Resources */,
 				1FE6DA8716BAB7D4001B60BE /* button_highlight.png in Resources */,
 				1FE6DA8816BAB7D4001B60BE /* button_highlight@2x.png in Resources */,
+				FEC98EFD16BB78F900A4471A /* ScratchViewClear.xib in Resources */,
+				FEC98F0016BB79BA00A4471A /* mohu.png in Resources */,
+				FE4D9E1A16BB8DCB00E33865 /* Icon.png in Resources */,
+				FE4D9E1B16BB8DCB00E33865 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +218,8 @@
 				FEC98EB016BA41A700A4471A /* main.m in Sources */,
 				FEC98EB416BA41A700A4471A /* AppDelegate.m in Sources */,
 				FEC98EBD16BA41A700A4471A /* ViewController.m in Sources */,
+				FEC98EFB16BB78F900A4471A /* TouchRecord.m in Sources */,
+				FEC98EFC16BB78F900A4471A /* ScrachViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
